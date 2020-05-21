@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/postmedia-wp
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\PostMediaWP\Component::initialize();
 ```
--->
 
 ## Standards
 
