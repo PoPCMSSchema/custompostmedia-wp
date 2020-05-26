@@ -25,7 +25,9 @@ composer require getpop/postmedia-wp
 Initialize the component:
 
 ``` php
-\PoP\PostMediaWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\PostMediaWP\Component::class,
+]);
 ```
 
 ## Standards
