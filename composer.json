@@ -1,12 +1,12 @@
 {
-    "name": "getpop/postmedia-wp",
+    "name": "getpop/custompostmedia-wp",
     "type": "library",
-    "description": "Implementation for WordPress of contracts from package \"Post Media\"",
+    "description": "Implementation for WordPress of contracts from package \"Custom Post Media\"",
     "keywords": [
         "PoP",
-        "postmedia-wp"
+        "custompostmedia-wp"
     ],
-    "homepage": "https://github.com/PoPSchema/postmedia-wp",
+    "homepage": "https://github.com/PoPSchema/custompostmedia-wp",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/postmedia": "dev-master",
+        "getpop/custompostmedia": "dev-master",
         "getpop/posts-wp": "dev-master",
         "getpop/media-wp": "dev-master"
     },
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\PostMediaWP\\": "src"
+            "PoP\\CustomPostMediaWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\PostMediaWP\\": "tests"
+            "PoP\\CustomPostMediaWP\\": "tests"
         }
     },
     "scripts": {

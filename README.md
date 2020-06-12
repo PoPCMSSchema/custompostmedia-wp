@@ -1,4 +1,4 @@
-# Post Media for WordPress
+# Custom Post Media for WordPress
 
 [![Build Status][ico-travis]][link-travis]
 [![Quality Score][ico-code-quality]][link-code-quality]
@@ -10,14 +10,14 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 -->
 
-Implementation for WordPress of contracts from package "Post Media"
+Implementation for WordPress of contracts from package "Custom Post Media"
 
 ## Install
 
 Via Composer
 
 ``` bash
-composer require getpop/postmedia-wp
+composer require getpop/custompostmedia-wp
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\PostMediaWP\Component::class,
+    \PoP\CustomPostMediaWP\Component::class,
 ]);
 ```
 
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/postmedia-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/getpop/custompostmedia-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/postmedia-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/postmedia-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/postmedia-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/postmedia-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/getpop/custompostmedia-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/custompostmedia-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/custompostmedia-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/getpop/custompostmedia-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/postmedia-wp
-[link-travis]: https://travis-ci.org/getpop/postmedia-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/postmedia-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/postmedia-wp
-[link-downloads]: https://packagist.org/packages/getpop/postmedia-wp
+[link-packagist]: https://packagist.org/packages/getpop/custompostmedia-wp
+[link-travis]: https://travis-ci.org/getpop/custompostmedia-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/custompostmedia-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/getpop/custompostmedia-wp
+[link-downloads]: https://packagist.org/packages/getpop/custompostmedia-wp
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

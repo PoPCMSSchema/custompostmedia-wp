@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="postmedia-wp">
-    <description>The coding standard of postmedia-wp package</description>
+<ruleset name="custompostmedia-wp">
+    <description>The coding standard of custompostmedia-wp package</description>
     <arg value="p" />
 
     <config name="ignore_warnings_on_exit" value="1" />

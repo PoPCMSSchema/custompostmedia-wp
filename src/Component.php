@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\PostMediaWP;
+namespace PoP\CustomPostMediaWP;
 
 use PoP\Root\Component\AbstractComponent;
 
@@ -16,7 +16,7 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\PostMedia\Component::class,
+            \PoP\CustomPostMedia\Component::class,
             \PoP\PostsWP\Component::class,
             \PoP\MediaWP\Component::class,
         ];
