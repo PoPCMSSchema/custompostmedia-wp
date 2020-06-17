@@ -21,7 +21,8 @@
         "php" : "~7.1",
         "getpop/custompostmedia": "dev-master",
         "getpop/customposts-wp": "dev-master",
-        "getpop/media-wp": "dev-master"
+        "getpop/media-wp": "dev-master",
+        "getpop/migrate-custompostmedia-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7.0",

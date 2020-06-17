@@ -21,4 +21,11 @@ class Component extends AbstractComponent
             \PoP\MediaWP\Component::class,
         ];
     }
+
+    public static function getDependedMigrationPlugins(): array
+    {
+        return [
+            'migrate-custompostmedia-wp',
+        ];
+    }
 }
