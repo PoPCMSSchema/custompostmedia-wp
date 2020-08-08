@@ -1,5 +1,5 @@
 {
-    "name": "getpop/custompostmedia-wp",
+    "name": "pop-schema/custompostmedia-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Custom Post Media\"",
     "keywords": [
@@ -19,10 +19,10 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/custompostmedia": "dev-master",
-        "getpop/customposts-wp": "dev-master",
-        "getpop/media-wp": "dev-master",
-        "getpop/migrate-custompostmedia-wp": "dev-master"
+        "pop-schema/custompostmedia": "dev-master",
+        "pop-schema/customposts-wp": "dev-master",
+        "pop-schema/media-wp": "dev-master",
+        "pop-schema/migrate-custompostmedia-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\CustomPostMediaWP\\": "src"
+            "PoPSchema\\CustomPostMediaWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\CustomPostMediaWP\\": "tests"
+            "PoPSchema\\CustomPostMediaWP\\": "tests"
         }
     },
     "scripts": {

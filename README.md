@@ -17,7 +17,7 @@ Implementation for WordPress of contracts from package "Custom Post Media"
 Via Composer
 
 ``` bash
-composer require getpop/custompostmedia-wp
+composer require pop-schema/custompostmedia-wp
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\CustomPostMediaWP\Component::class,
+    \PoPSchema\CustomPostMediaWP\Component::class,
 ]);
 ```
 
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/custompostmedia-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/custompostmedia-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/custompostmedia-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/custompostmedia-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/custompostmedia-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/custompostmedia-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/custompostmedia-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/custompostmedia-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/custompostmedia-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/custompostmedia-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/custompostmedia-wp
-[link-travis]: https://travis-ci.org/getpop/custompostmedia-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/custompostmedia-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/custompostmedia-wp
-[link-downloads]: https://packagist.org/packages/getpop/custompostmedia-wp
+[link-packagist]: https://packagist.org/packages/pop-schema/custompostmedia-wp
+[link-travis]: https://travis-ci.org/pop-schema/custompostmedia-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/custompostmedia-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/custompostmedia-wp
+[link-downloads]: https://packagist.org/packages/pop-schema/custompostmedia-wp
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors
